@@ -10,6 +10,9 @@ import UIKit
 
 class DetailVC: UIViewController {
 
+    @IBOutlet weak var backdropIV: UIImageView!
+    @IBOutlet weak var detailTV: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
